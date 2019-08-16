@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import Nav from '../components/Nav'
-import Card from '../components/Card/index.tsx'
+import Card from '../components/Card'
 
 import links from '../utils/data/links'
 
@@ -22,7 +22,10 @@ const Home = () => (
 
       <div className='row'>
         {links.map((link) => (
-          <Link href={link.link}>
+          <Link
+            key={link.link}
+            href={link.link}
+          >
             <Card
               headline={link.headline}
               body={link.body}
