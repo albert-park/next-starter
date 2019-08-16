@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import css from 'styled-jsx/css'
 
-
-export const StyledAnchor = styled.a`
+export default css`
+  .card {
   padding: 18px 18px 24px;
   width: 220px;
   text-align: left;
@@ -9,21 +9,22 @@ export const StyledAnchor = styled.a`
   color: #434343;
   border: 1px solid #9b9b9b;
 
-  &:hover {
+  }
+
+  .card: hover {
     border-color: #067df7;
   }
 
-`
+  h3 {
+    margin: 0;
+    color: #067df7;
+    font-size: 18px;
+  }
 
-export const StyledHeadline = styled.h3`
-  margin: 0;
-  color: #067df7;
-  font-size: 18px;
-`
-
-export const StyledParagraph = styled.p`
-  margin: 0;
-  padding: 12px 0 0;
-  font-size: 13px;
-  color: #333;  
+  p {
+    margin: 0;
+    padding: 12px 0 0;
+    font-size: 13px;
+    color: #333;
+  }
 `
