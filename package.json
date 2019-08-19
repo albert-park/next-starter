@@ -9,6 +9,8 @@
     "lint": "eslint ./. --fix --quiet --ext .jsx,.js,.ts,.tsx"
   },
   "dependencies": {
+    "@types/next": "^8.0.6",
+    "@zeit/next-typescript": "^1.1.1",
     "eslint-plugin-import": "^2.18.2",
     "next": "9.0.3",
     "prop-types": "^15.7.2",
