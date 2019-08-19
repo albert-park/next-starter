@@ -5,17 +5,27 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint ./. --fix --quiet --ext .jsx,.js,.ts,.tsx"
   },
   "dependencies": {
+    "eslint-plugin-import": "^2.18.2",
     "next": "9.0.3",
+    "prop-types": "^15.7.2",
     "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "react-dom": "16.9.0",
+    "styled-jsx": "^3.2.1"
   },
   "devDependencies": {
     "@types/node": "^12.7.2",
     "@types/react": "^16.9.1",
     "@types/styled-jsx": "^2.2.8",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
     "typescript": "^3.5.3"
   }
 }

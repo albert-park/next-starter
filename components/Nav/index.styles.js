@@ -25,4 +25,4 @@ export default css`
     text-decoration: none;
     font-size: 13px;
   }
-`
+`;
