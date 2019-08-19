@@ -1,4 +1,4 @@
-import css from 'styled-jsx/css'
+import css from 'styled-jsx/css';
 
 export default css`
   .card {
@@ -27,4 +27,4 @@ export default css`
     font-size: 13px;
     color: #333;
   }
-`
+`;

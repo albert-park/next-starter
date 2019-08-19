@@ -1,10 +1,10 @@
-import React from 'react'
-import Link from 'next/link'
-import Head from 'next/head'
-import Nav from '../components/Nav'
-import Card from '../components/Card'
+import React from 'react';
+import Link from 'next/link';
+import Head from 'next/head';
+import Nav from '../components/Nav';
+import Card from '../components/Card';
 
-import links from '../utils/data/links'
+import cardLinks from '../utils/data/links';
 
 const Home = () => (
   <div>
@@ -14,16 +14,20 @@ const Home = () => (
 
     <Nav />
 
-    <div className='hero'>
-      <h1 className='title'>Welcome to Next.js!</h1>
-      <p className='description'>
-        To get started, edit <code>pages/index.js</code> and save to reload.
+    <div className="hero">
+      <h1 className="title">Welcome to Next.js!</h1>
+      <p className="description">
+        To get started, edit
+        {' '}
+        <code>pages/index.js</code>
+        {' '}
+        and save to reload.
       </p>
 
-      <div className='row'>
-        {links.map((link) => (
+      <div className="row">
+        {cardLinks.map((link) => (
           <Link
-            key={link.link}
+            key={link.headline}
             href={link.link}
           >
             <Card
@@ -35,7 +39,8 @@ const Home = () => (
       </div>
     </div>
 
-    <style jsx>{`
+    <style jsx>
+      {`
       .hero {
         width: 100%;
         color: #333;
@@ -80,8 +85,9 @@ const Home = () => (
         font-size: 13px;
         color: #333;
       }
-    `}</style>
+    `}
+    </style>
   </div>
-)
+);
 
-export default Home
+export default Home;
