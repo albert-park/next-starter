@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Component should match snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="jsx-3319782719"
+  >
+    <ul
+      class="jsx-3319782719"
+    >
+      <li
+        class="jsx-3319782719"
+      >
+        <a
+          class="jsx-3319782719"
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        class="jsx-3319782719"
+      >
+        <a
+          class="jsx-3319782719"
+          href="https://zeit.co/now"
+        >
+          ZEIT
+        </a>
+      </li>
+      <li
+        class="jsx-3319782719"
+      >
+        <a
+          class="jsx-3319782719"
+          href="https://github.com/zeit/next.js"
+        >
+          GitHub
+        </a>
+      </li>
+    </ul>
+  </nav>
+</DocumentFragment>
+`;

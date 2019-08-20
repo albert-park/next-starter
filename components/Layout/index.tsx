@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import React, { FC } from 'react';
 import Head from 'next/head';
 import Nav from '../Nav';
 import LayoutStyles from './index.styles';
@@ -9,7 +9,7 @@ interface LayoutProps {
 }
 
 const Layout: FC<LayoutProps> = ({ children, title, layoutStyle }) => {
-  const useStyles = layoutStyle ? layoutStyle : LayoutStyles;
+  const useStyles = layoutStyle || LayoutStyles;
   return (
     <div className="hero">
       <Head>
@@ -18,7 +18,13 @@ const Layout: FC<LayoutProps> = ({ children, title, layoutStyle }) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Nav />
-      <h1 className="title">Welcome to Next.js Starter {title} Page!</h1>
+      <h1 className="title">
+        Welcome to Next.js Starter
+        {' '}
+        {title}
+        {' '}
+Page!
+      </h1>
       <p className="description">
         To get started, edit
         {' '}
@@ -32,6 +38,6 @@ const Layout: FC<LayoutProps> = ({ children, title, layoutStyle }) => {
       </style>
     </div>
   );
-}
+};
 
 export default Layout;

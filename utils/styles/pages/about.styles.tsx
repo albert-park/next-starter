@@ -6,4 +6,4 @@ export default css`
     justify-content: center;
     margin-top: 100px;
   }
-`
+`;

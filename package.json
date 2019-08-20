@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint ./. --fix --quiet --ext .jsx,.js,.ts,.tsx",
+    "export": "next export",
     "test": "jest"
   },
   "dependencies": {
@@ -19,7 +20,8 @@
     "prop-types": "^15.7.2",
     "react": "16.9.0",
     "react-dom": "16.9.0",
-    "styled-jsx": "^3.2.1"
+    "styled-jsx": "^3.2.1",
+    "typescript-eslint": "^0.0.1-alpha.0"
   },
   "devDependencies": {
     "@testing-library/react": "^9.1.3",

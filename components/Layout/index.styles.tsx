@@ -1,4 +1,4 @@
-import css from 'styled-jsx/css'
+import css from 'styled-jsx/css';
 
 export default css`
   .hero {
@@ -16,4 +16,4 @@ export default css`
   .description {
     text-align: center;
   }
-`
+`;

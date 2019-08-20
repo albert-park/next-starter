@@ -2,7 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import Layout from '../components/Layout';
 import AboutPageStyles from '../utils/styles/pages/about.styles';
-const pageName = "About"
+
+const pageName = 'About';
 
 const About = () => (
   <Layout title={pageName}>
