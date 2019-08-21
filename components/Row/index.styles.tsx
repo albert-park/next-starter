@@ -8,4 +8,4 @@ export default css`
     flex-direction: row;
     justify-content: space-around;
   }
-`
+`;

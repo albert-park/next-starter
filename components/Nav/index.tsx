@@ -2,7 +2,8 @@ import React, { FC } from 'react';
 import Link from 'next/link';
 import NavStyles from './index.styles';
 
-const links = [
+export const links = [
+  { href: '/', label: 'Home', key: '' },
   { href: 'https://zeit.co/now', label: 'ZEIT', key: '' },
   { href: 'https://github.com/zeit/next.js', label: 'GitHub', key: '' },
 ].map((link) => {
@@ -13,11 +14,6 @@ const links = [
 const Nav: FC = () => (
   <nav>
     <ul>
-      <li>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-      </li>
       {links.map(({ key, href, label }) => (
         <li key={key}>
           <a href={href}>{label}</a>

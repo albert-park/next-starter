@@ -10,4 +10,4 @@ const Row = ({ children }) => (
   </div>
 );
 
-export default Row
+export default Row;
