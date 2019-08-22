@@ -1,42 +1,33 @@
 import React, { FC } from 'react';
 import Head from 'next/head';
 import Nav from '../Nav';
-import LayoutStyles from './index.styles';
+import {StyledHero, StyledTitle, StyledDescripttion} from './index.styles';
 
 interface LayoutProps {
   title: string,
   layoutStyle?: object
 }
 
-const Layout: FC<LayoutProps> = ({ children, title, layoutStyle }) => {
-  const useStyles = layoutStyle || LayoutStyles;
+const Layout: FC<LayoutProps> = ({ children, title }) => {
   return (
-    <div className="hero">
-      <Head>
-        <title>{title}</title>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
+    <StyledHero>
       <Nav />
-      <h1 className="title">
+      <StyledTitle>
         Welcome to Next.js Starter
         {' '}
         {title}
         {' '}
 Page!
-      </h1>
-      <p className="description">
+      </StyledTitle>
+      <StyledDescripttion>
         To get started, edit
         {' '}
         <code>pages/index.js</code>
         {' '}
         and save to reload.
-      </p>
+      </StyledDescripttion>
       {children}
-      <style jsx>
-        {useStyles}
-      </style>
-    </div>
+    </StyledHero>
   );
 };
 

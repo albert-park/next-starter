@@ -3,7 +3,7 @@
 exports[`Layout Component should match snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="jsx-4287120166 hero"
+    class="indexstyles__StyledHero-sc-17i3g0v-0 vlZQG"
   >
     <nav
       class="jsx-3319782719"
@@ -44,17 +44,15 @@ exports[`Layout Component should match snapshot 1`] = `
       </ul>
     </nav>
     <h1
-      class="jsx-4287120166 title"
+      class="indexstyles__StyledTitle-sc-17i3g0v-1 kpdsfj"
     >
       Welcome to Next.js Starter Test title Page!
     </h1>
     <p
-      class="jsx-4287120166 description"
+      class="indexstyles__StyledDescripttion-sc-17i3g0v-2 hZrcbT"
     >
       To get started, edit 
-      <code
-        class="jsx-4287120166"
-      >
+      <code>
         pages/index.js
       </code>
        and save to reload.
