@@ -1,13 +1,5 @@
 // next.config.js
 const withCSS = require('@zeit/next-css');
-const withTypescript = require('@zeit/next-typescript');
-
-module.exports = withTypescript({
-  webpack(config) {
-    return config;
-  },
-});
-
 
 function removeMinimizeOptionFromCssLoaders(config) {
   console.warn(
@@ -18,6 +10,8 @@ function removeMinimizeOptionFromCssLoaders(config) {
       rule.use.forEach((use) => {
         if (use.loader === 'css-loader' && use.options) {
           console.log(use.options);
+
+          // eslint-disable-next-line no-param-reassign
           delete use.options.minimize;
         }
       });
@@ -25,9 +19,9 @@ function removeMinimizeOptionFromCssLoaders(config) {
   });
 }
 
-module.exports = withTypescript(withCSS({
+module.exports = withCSS({
   webpack(config) {
     removeMinimizeOptionFromCssLoaders(config);
     return config;
   },
-}));
+});

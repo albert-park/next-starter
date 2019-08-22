@@ -8,25 +8,28 @@ interface LayoutProps {
   layoutStyle?: object
 }
 
-const Layout: FC<LayoutProps> = ({ children, title }) => (
-  <StyledHero>
-    <Nav />
-    <StyledTitle>
+const Layout: FC<LayoutProps> = ({ children, title }) => {
+  const pageFileName = title === 'Home' ? 'index' : title.toLowerCase();
+  return (
+    <StyledHero>
+      <Nav />
+      <StyledTitle>
         Welcome to Next.js Starter
-      {' '}
-      {title}
-      {' '}
+        {' '}
+        {title}
+        {' '}
 Page!
-    </StyledTitle>
-    <StyledDescripttion>
+      </StyledTitle>
+      <StyledDescripttion>
         To get started, edit
-      {' '}
-      <code>pages/index.js</code>
-      {' '}
+        {' '}
+        <code>{`pages/${pageFileName}.js`}</code>
+        {' '}
         and save to reload.
-    </StyledDescripttion>
-    {children}
-  </StyledHero>
-);
+      </StyledDescripttion>
+      {children}
+    </StyledHero>
+  );
+};
 
 export default Layout;

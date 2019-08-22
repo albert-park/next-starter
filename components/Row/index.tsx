@@ -1,13 +1,10 @@
 import React from 'react';
-import RowStyles from './index.styles';
+import { StyledRow } from './index.styles';
 
 const Row = ({ children }) => (
-  <div className="row">
+  <StyledRow>
     {children}
-    <style jsx>
-      {RowStyles}
-    </style>
-  </div>
+  </StyledRow>
 );
 
 export default Row;

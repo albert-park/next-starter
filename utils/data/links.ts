@@ -1,4 +1,10 @@
-const cardLinks: Array<object> = [
+interface CardLinkData {
+  link: string,
+  headline: string,
+  body: string
+}
+
+const cardLinks: Array<CardLinkData> = [
   {
     link: '/about',
     headline: 'About Page',

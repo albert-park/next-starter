@@ -46,14 +46,14 @@ exports[`Layout Component should match snapshot 1`] = `
     <h1
       class="indexstyles__StyledTitle-sc-17i3g0v-1 kpdsfj"
     >
-      Welcome to Next.js Starter Test title Page!
+      Welcome to Next.js Starter Cats Page!
     </h1>
     <p
       class="indexstyles__StyledDescripttion-sc-17i3g0v-2 hZrcbT"
     >
       To get started, edit 
       <code>
-        pages/index.js
+        pages/cats.js
       </code>
        and save to reload.
     </p>

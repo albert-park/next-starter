@@ -8,7 +8,7 @@ const pageName = 'About';
 const About = () => (
   <Layout title={pageName}>
     <div className="back-link">
-      <Link href="/">Back to Home</Link>
+      <Link href="/"><a href="/">Back to Home</a></Link>
     </div>
     <style jsx>
       {AboutPageStyles}
