@@ -6,36 +6,36 @@ exports[`Layout Component should match snapshot 1`] = `
     class="indexstyles__StyledHero-sc-17i3g0v-0 vlZQG"
   >
     <nav
-      class="jsx-3319782719"
+      class="indexstyles__StyledNav-mi8ir5-0 gfWmhc"
     >
       <ul
-        class="jsx-3319782719"
+        class="indexstyles__StyledUl-mi8ir5-1 hfekUk"
       >
         <li
-          class="jsx-3319782719"
+          class="indexstyles__StyledLi-mi8ir5-2 gaXxcC"
         >
           <a
-            class="jsx-3319782719"
+            class="indexstyles__StyledAnchor-mi8ir5-3 hUFsIF"
             href="/"
           >
             Home
           </a>
         </li>
         <li
-          class="jsx-3319782719"
+          class="indexstyles__StyledLi-mi8ir5-2 gaXxcC"
         >
           <a
-            class="jsx-3319782719"
+            class="indexstyles__StyledAnchor-mi8ir5-3 hUFsIF"
             href="https://zeit.co/now"
           >
             ZEIT
           </a>
         </li>
         <li
-          class="jsx-3319782719"
+          class="indexstyles__StyledLi-mi8ir5-2 gaXxcC"
         >
           <a
-            class="jsx-3319782719"
+            class="indexstyles__StyledAnchor-mi8ir5-3 hUFsIF"
             href="https://github.com/zeit/next.js"
           >
             GitHub

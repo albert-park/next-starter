@@ -1,4 +1,5 @@
 import css from 'styled-jsx/css';
+import styled from 'styled-components';
 
 export default css`
   :global(body) {
@@ -6,23 +7,25 @@ export default css`
     font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
       Helvetica, sans-serif;
   }
-  nav {
-    text-align: center;
-  }
-  ul {
+`;
+
+export const StyledNav = styled.nav`
+  text-align: center;
+`;
+
+export const StyledUl = styled.ul`
     display: flex;
     justify-content: space-between;
-  }
-  nav > ul {
     padding: 4px 16px;
-  }
-  li {
+`;
+
+export const StyledLi = styled.li`
     display: flex;
     padding: 6px 8px;
-  }
-  a {
+`;
+
+export const StyledAnchor = styled.a`
     color: #067df7;
     text-decoration: none;
     font-size: 13px;
-  }
 `;

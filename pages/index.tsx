@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import Row from '../components/Row';
 import IndexStyles from '../utils/styles/pages/index.styles';
 
-import cardLinks from '../utils/data/links';
+import cardLinks from '../utils/data/links.js';
 
 const pageName = 'Home';
 

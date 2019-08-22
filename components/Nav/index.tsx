@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
-import Link from 'next/link';
-import NavStyles from './index.styles';
+import NavStyles, {
+  StyledAnchor, StyledLi, StyledNav, StyledUl,
+} from './index.styles';
 
 export const links = [
   { href: '/', label: 'Home', key: '' },
@@ -12,19 +13,19 @@ export const links = [
 });
 
 const Nav: FC = () => (
-  <nav>
-    <ul>
+  <StyledNav>
+    <StyledUl>
       {links.map(({ key, href, label }) => (
-        <li key={key}>
-          <a href={href}>{label}</a>
-        </li>
+        <StyledLi key={key}>
+          <StyledAnchor href={href}>{label}</StyledAnchor>
+        </StyledLi>
       ))}
-    </ul>
+    </StyledUl>
 
     <style jsx>
       {NavStyles}
     </style>
-  </nav>
+  </StyledNav>
 );
 
 export default Nav;
