@@ -16,7 +16,10 @@ const Home = () => (
           key={link.headline}
           href={link.link}
         >
-          <a className="card">
+          <a
+            href={link.link}
+            className="card"
+          >
             <h3>{link.headline}</h3>
             <p>{link.body}</p>
           </a>
@@ -31,7 +34,10 @@ const Home = () => (
           key={link.headline}
           href={link.link}
         >
-          <a className="card">
+          <a
+            href={link.link}
+            className="card"
+          >
             <h3>{link.headline}</h3>
             <p>{link.body}</p>
           </a>

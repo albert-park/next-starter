@@ -4,14 +4,14 @@ import '@testing-library/jest-dom/extend-expect';
 import Layout from '../index';
 
 const mockLayoutProps = {
-  title: 'Test title',
+  title: 'Cats',
 };
 
 const mockHeadline = `Welcome to Next.js Starter ${mockLayoutProps.title} Page!`;
 
 describe('Layout Component', () => {
   it('should match snapshot', () => {
-    const { asFragment } = render(<Layout {...mockLayoutProps} />);
+    const { asFragment } = render(<Layout title={mockLayoutProps.title} />);
     expect(asFragment()).toMatchSnapshot();
   });
 

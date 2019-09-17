@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout Component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="indexstyles__StyledRow-sc-2nh6n1-0 dWwEEj"
+  >
+    <a
+      data-testid="test-child"
+      href="/"
+    >
+      Test Link
+    </a>
+  </div>
+</DocumentFragment>
+`;

@@ -3,39 +3,39 @@
 exports[`Layout Component should match snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="jsx-4287120166 hero"
+    class="indexstyles__StyledHero-sc-17i3g0v-0 vlZQG"
   >
     <nav
-      class="jsx-3319782719"
+      class="indexstyles__StyledNav-mi8ir5-0 gfWmhc"
     >
       <ul
-        class="jsx-3319782719"
+        class="indexstyles__StyledUl-mi8ir5-1 hfekUk"
       >
         <li
-          class="jsx-3319782719"
+          class="indexstyles__StyledLi-mi8ir5-2 gaXxcC"
         >
           <a
-            class="jsx-3319782719"
+            class="indexstyles__StyledAnchor-mi8ir5-3 hUFsIF"
             href="/"
           >
             Home
           </a>
         </li>
         <li
-          class="jsx-3319782719"
+          class="indexstyles__StyledLi-mi8ir5-2 gaXxcC"
         >
           <a
-            class="jsx-3319782719"
+            class="indexstyles__StyledAnchor-mi8ir5-3 hUFsIF"
             href="https://zeit.co/now"
           >
             ZEIT
           </a>
         </li>
         <li
-          class="jsx-3319782719"
+          class="indexstyles__StyledLi-mi8ir5-2 gaXxcC"
         >
           <a
-            class="jsx-3319782719"
+            class="indexstyles__StyledAnchor-mi8ir5-3 hUFsIF"
             href="https://github.com/zeit/next.js"
           >
             GitHub
@@ -44,18 +44,16 @@ exports[`Layout Component should match snapshot 1`] = `
       </ul>
     </nav>
     <h1
-      class="jsx-4287120166 title"
+      class="indexstyles__StyledTitle-sc-17i3g0v-1 kpdsfj"
     >
-      Welcome to Next.js Starter Test title Page!
+      Welcome to Next.js Starter Cats Page!
     </h1>
     <p
-      class="jsx-4287120166 description"
+      class="indexstyles__StyledDescripttion-sc-17i3g0v-2 hZrcbT"
     >
       To get started, edit 
-      <code
-        class="jsx-4287120166"
-      >
-        pages/index.js
+      <code>
+        pages/cats.js
       </code>
        and save to reload.
     </p>
